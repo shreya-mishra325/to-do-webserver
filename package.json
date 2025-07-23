@@ -1,0 +1,23 @@
+{
+  "name": "to-do-webserver",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreya-mishra325/to-do-webserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreya-mishra325/to-do-webserver/issues"
+  },
+  "homepage": "https://github.com/shreya-mishra325/to-do-webserver#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
