@@ -31,7 +31,7 @@ app.delete('/todos/:id', (req,res) => {
     const id1 = Number(req.params.id);
     const index = todos.findIndex(item => item.id === id1);
     if(index === -1) {
-        return res.status(404).json({error: `to-do not found with id ${id1}`});
+        return res.status(404).json({error: `task not found with id ${id1}`});
     }
 
 const deleted = todos.splice(index, 1);
